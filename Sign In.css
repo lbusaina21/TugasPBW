@@ -1,0 +1,46 @@
+div{
+	width: 400px;
+	margin: 0 auto;
+}
+
+body{
+	background-color: lavenderblush;
+}
+
+#email, #pass{
+	width: 400px;
+	padding: 10px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+button{
+  background-color: mistyrose;
+  border: none;
+  color: black;
+  padding: 14px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1.0em;
+}
+
+button[type=submit]{
+	margin: 4px 50px 4px 2px;
+}
+
+button[type=signup]{
+	background-color: lavender;
+	margin: 4px 2px;
+	text-decoration: none;
+}
+
+button[type=signup] a{
+	text-decoration: none;
+	color: black;
+}
+
+ button:hover{
+	background-color:ivory;
+}

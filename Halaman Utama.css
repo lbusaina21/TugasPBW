@@ -1,0 +1,252 @@
+body{
+	margin:auto;
+}
+
+header{
+	background-color: mistyrose;
+	padding: 5px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 70px;
+}
+
+header img{
+	float: left;
+	width: 58px;
+	height: 70px;
+	display: inline-block;
+}
+
+header h1{
+	float: left;
+	font-family: "Lucida Handwriting";
+	font-size: 25px;
+	display: inline-block;
+}
+
+header button{
+	float: right;
+	font-family: "Monaco";
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	display: inline-block;
+	padding: 0.5em 0.50em;
+	border-radius: 1.0em;
+	background-color: mistyrose;
+	cursor: pointer;
+	margin: 1em 0;
+	
+}
+
+header button:hover{
+	background-color:lavenderblush;
+}
+
+header a{
+	text-decoration: none;
+	color:black;
+}
+
+nav{
+	background-color: mistyrose;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 80px;
+}
+
+nav a, select{
+	display: inline-block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+nav a:hover{
+	background-color:lavenderblush;
+	color: black;
+}
+
+nav select{
+  display: inline-block;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: mistyrose;
+}
+
+nav select:hover{
+	background-color:lavenderblush;
+	color: black;
+}
+
+nav select option:hover{
+	background-color:lavenderblush;
+	color: black;
+}
+
+.column{
+	float: left;
+	background-color:#f1f1f1;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+main #hal1{
+	clear: left;
+	background-color:lavenderblush;
+	padding: 15px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+main #hal1 img{
+	float: left;
+	background-color:lavenderblush;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+main #hal1 #i1{
+	width: 600px;
+	height: 528px;
+}
+
+main #hal1 #i2{
+	width: 600px;
+	height: 450px;
+}
+
+aside{
+	float: left;
+	background-color:lavenderblush;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 25%;
+	height: 290px;
+}
+
+aside img{
+	width: 150px;
+	height: 118px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main #hal3{
+	float: left;
+	background-color:lavenderblush;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 75%;
+	height: 290px;
+}
+
+main #hal3 ol{
+	padding-left: 15px;
+}
+
+main #hal4{
+	text-align: center;
+	clear: left;
+	background-color:lavenderblush;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+main #hal4 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main{
+	padding-top: 125px;
+	/*display: flex;*/
+}
+
+main::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+footer{
+	background-color:mistyrose;
+	padding: 20px 20px 170px 20px;
+	text-align: center;
+}
+
+footer .p1{
+	float: left;
+	text-align: left;
+	font-size: 10px;
+	margin-top: 130px;
+}
+
+footer .d1{
+	float: right;
+	font-size: 12px;
+	width: 200px;
+	text-align: left;
+}
+
+footer .d1 .p2{
+	font-weight: bold;
+}
+
+footer .d1 img{
+	width: 10px;
+	height: 10px;
+}
+
+footer .d2{
+	float: right;
+	font-size: 12px;
+	width: 200px;
+	text-align: left;
+}
+
+.kotak{
+	background-color:black;
+	width: 75%;
+	height: 2000px;
+	position: fixed;
+	left: 100px;
+	right: 100px;
+	top: 100px;
+	bottom: 100px;
+	opacity: 70%
+}
+
+.close{
+	background-color:white;
+	width: 30px;
+	height: 30px;
+	border: 5px solid black;
+	position: absolute;
+	right: 0;
+	border-radius: 50%;
+}
+
+@media screen and (max-width:600px){
+	main{
+		flex-direction: column;
+	}
+	
+	article, aside{
+		padding-top: 150px;
+		width:100%;
+	}
+	
+	nav a{
+		display:block;
+		text-align: left;
+	}
+}

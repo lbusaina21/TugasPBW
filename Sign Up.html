@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="Sign Up.css">
+</head>
+<body>
+	<h2>Pendaftaran Anggota STIS Mengajar</h2>
+	
+	<form name="myForm">
+		<label for="nama">Nama Lengkap</label><br>
+		<input type="text" id="nama" name="nama" placeholder="Nama">
+		<br><br>
+		
+		<label for="tgl">Tanggal Lahir</label><br>
+		<input type="date" id="tgl" name="tanggallahir">
+		<br><br>
+		
+		<label for="email">Email</label><br>
+		<input type="email" id="email" name="email" required>
+		<br><br>
+		
+		<label for="pass">Password</label><br>
+		<input type="password" id="pass" name="password">
+		<br><br>
+		
+		<label>Jenis Kelamin</label><br>
+		<input type="radio" id="lk" name="jk" value="1"> <label for="lk">Laki-Laki</label>
+		<input type="radio" id="pr" name="jk" value="2"> <label for="pr">Perempuan</label>
+		<br><br>
+		
+		<label>Bahasa Pemrograman yang Ingin Dipelajari: </label><br>
+		<input type="checkbox" id="bahasa1" name="bhs1" value="php"> <label for="bahasa1">PHP</label>
+		<input type="checkbox" id="bahasa2" name="bhs2" value="java"> <label for="bahasa2">Java</label>
+		<input type="checkbox" id="bahasa3" name="bhs3" value="python"> <label for="bahasa3">Python</label>
+		<br><br>
+		
+		<label for="alasan">Alasan Ingin Bergabung: </label>
+		<textarea id="alasan" name="alasan" rows="5" cols="50"></textarea>
+		<br><br>
+		
+		<label for="alasan">Mata Kuliah Favorit</label><br>
+		<select id="matkul" name="matkul" required>
+			<option value="">Pilihan Mata Kuliah</option>
+			<option label="PTI" value="MK001">Pengantar Teknologi Informasi</option>
+			<option value="MK002">Matematika Diskrit</option>
+			<option value="MK003">Basis Data Lanjutan</option>
+			<option value="MK004">Pemrograman Berbasis Web</option>
+			<option value="MK005">Rekayasa Perangkat Lunak</option>
+		</select>
+		<br><br>
+		
+		<button type="submit">Daftar Sekarang</button>
+		<button type="reset">Reset</button>
+	</form>
+</body>
+</html>
