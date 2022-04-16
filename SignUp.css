@@ -1,0 +1,66 @@
+body{
+	background-color: lavenderblush;
+}
+
+h1{
+	text-align: center;
+}
+
+img{
+	width: 700px;
+	height: 350px;
+	margin: 0 auto;
+	display: block;
+}
+
+form{
+	margin: 5% 33%;
+	display: block;
+}
+
+input{
+	width: 400px;
+	height: 30px;
+	padding: 10px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+#kementerian1, #kementerian2, #kementerian3{
+	width: 400px;
+	height: 32px;
+	padding: 5px 5px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+option{
+	background-color: lavenderblush;
+}
+
+option:hover{
+	background-color: mistyrose;
+}
+
+#lk, #pr, #mhs, #kyw, #pn, #tp, #wrh, #ya, #tdk, #satu, #dua, #tiga{
+	width: 12px;
+	height: 12px;
+	margin: 3px;
+}
+
+button{
+	background-color: mistyrose;
+	border: none;
+	color: black;
+	padding: 14px 30px;
+	text-decoration: none;
+	margin: 4px 75px 4px 2px;
+	cursor: pointer;
+	border-radius: 1.0em;
+}
+
+button:hover{
+	background-color:lavender;
+}

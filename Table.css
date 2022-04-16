@@ -1,0 +1,24 @@
+body{
+	/* padding-top: 125px; */
+	background-color:lavenderblush;
+	/*display: flex;*/
+}
+
+table{	
+	border-collapse: collapse;
+	margin-left: 40px;
+}
+		
+td, th{
+	border: solid 1px black;
+	padding: 0 0.5em 0 0.5em;
+}
+
+.no, .header{
+	text-align: center;
+	background-color: mistyrose;
+}
+
+.isi{
+	text-align: center;
+}

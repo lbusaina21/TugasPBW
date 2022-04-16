@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sign Up</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+</head>
+<body>
+	<h1>Pendaftaran Anggota STIS Mengajar</h1>
+	
+	<img alt="STIS Mengajar" src="undraw_online_ad_re_ol62.svg"/>
+	
+	<form name="myForm">
+		<label for="nama">Nama Lengkap</label><br>
+		<input type="text" id="nama" name="nama">
+		<br><br>
+		
+		<label for="tgl">Tanggal Lahir</label><br>
+		<input type="date" id="tgl" name="tanggallahir">
+		<br><br>
+
+		<label>Jenis Kelamin</label><br>
+		<input type="radio" id="lk" name="jk" value="1"> <label for="lk">Laki-Laki</label>
+		<input type="radio" id="pr" name="jk" value="2"> <label for="pr">Perempuan</label>
+		<br><br>
+		
+		<label for="kelas">Kelas</label><br>
+		<input type="text" id="kelas" name="kelas" required>
+		<br><br>
+
+		<label for="email">Email</label><br>
+		<input type="email" id="email" name="email" required>
+		<br><br>
+		
+		<label for="pass1">Password</label><br>
+		<input type="password" id="pass1" name="pass1">
+		<br><br>
+
+		<label for="pass2">Konfirmasi Password</label><br>
+		<input type="password" id="pass2" name="pass2">
+		<br><br>
+		
+		<label for="alasan">Alasan Ingin Bergabung: </label><br>
+		<textarea id="alasan" name="alasan" rows="5" cols="50"></textarea>
+		<br><br>
+		
+		<label for="kementerian1">Kementerian yang Ingin Dimasuki</label><br>
+		<select id="kementerian1" name="kementerian" required>
+			<option value="">Pilihan 1</option>
+			<option value="K01">Kementerian Analisis Isu Strategis</option>
+			<option value="K02">Kementerian Riset dan Pengembangan</option>
+			<option value="K03">Kementerian Perencanaan Kurikulum</option>
+			<option value="K04">Kementerian Kreatif</option>
+			<option value="K05">Kementerian PSDM</option>
+			<option value="K06">Kementerian Ekonomi Kreatif</option>
+			<option value="K07">Kementerian Luar Negeri</option>
+			<option value="K08">Kementerian Media dan Informasi</option>
+		</select>
+		<br><br>
+		<select id="kementerian2" name="kementerian" required>
+			<option value="">Pilihan 2</option>
+			<option value="K01">Kementerian Analisis Isu Strategis</option>
+			<option value="K02">Kementerian Riset dan Pengembangan</option>
+			<option value="K03">Kementerian Perencanaan Kurikulum</option>
+			<option value="K04">Kementerian Kreatif</option>
+			<option value="K05">Kementerian PSDM</option>
+			<option value="K06">Kementerian Ekonomi Kreatif</option>
+			<option value="K07">Kementerian Luar Negeri</option>
+			<option value="K08">Kementerian Media dan Informasi</option>
+		</select>
+		<br><br>
+		<select id="kementerian3" name="kementerian" required>
+			<option value="">Pilihan 3</option>
+			<option value="K01">Kementerian Analisis Isu Strategis</option>
+			<option value="K02">Kementerian Riset dan Pengembangan</option>
+			<option value="K03">Kementerian Perencanaan Kurikulum</option>
+			<option value="K04">Kementerian Kreatif</option>
+			<option value="K05">Kementerian PSDM</option>
+			<option value="K06">Kementerian Ekonomi Kreatif</option>
+			<option value="K07">Kementerian Luar Negeri</option>
+			<option value="K08">Kementerian Media dan Informasi</option>
+		</select>
+		<br><br>
+		
+		<button type="submit">Daftar Sekarang</button>
+		<button type="reset">Reset</button>
+	</form>
+</body>
+</html>

@@ -15,23 +15,23 @@ header img{
 	float: left;
 	width: 58px;
 	height: 70px;
-	display: inline-block;
+	display: inline;
 }
 
 header h1{
 	float: left;
 	font-family: "Lucida Handwriting";
 	font-size: 25px;
-	display: inline-block;
+	display: inline;
 }
 
-header button{
+header .btn1, .btn2{
 	float: right;
 	font-family: "Monaco";
 	font-size: 18px;
 	font-weight: bold;
 	border: none;
-	display: inline-block;
+	display: inline;
 	padding: 0.5em 0.50em;
 	border-radius: 1.0em;
 	background-color: mistyrose;
@@ -40,11 +40,11 @@ header button{
 	
 }
 
-header button:hover{
+.btn1:hover, .btn2:hover{
 	background-color:lavenderblush;
 }
 
-header a{
+header a, main a{
 	text-decoration: none;
 	color:black;
 }
@@ -105,7 +105,88 @@ main #hal1{
 	display: flex;
 }
 
-main #hal1 img{
+/* .fa-angle-left, .fa-angle-right{
+	margin-top: 15%;
+	cursor: pointer;
+}
+
+.g{
+	background-image: url('undraw_add_information_j2wg.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 467px;
+	text-align: center;
+}
+
+.g h2{
+	color: white;
+} */
+
+/* main #hal1 h2{
+	display: inline;
+	padding: 15px;
+	height: 25px;
+	text-align: center;
+	margin-right: 50px;
+} */
+
+main div{
+	float: left;
+}
+
+#e1{
+	background-image: url('undraw_add_information_j2wg.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+	width: 600px;
+	height: 450px;
+	text-align: center;
+}
+
+#e2{
+	background-image: url('undraw_collaborators_re_hont.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+	width: 600px;
+	height: 300px;
+	margin-top: 9%;
+	text-align: center;
+}
+
+#e2 h2{
+	margin-bottom: 0;
+}
+
+main .btn1{
+	font-family: "Monaco";
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	display: inline;
+	padding: 0.5em 0.50em;
+	border-radius: 1.0em;
+	background-color: mistyrose;
+	cursor: pointer;
+	margin: 0;
+}
+
+main .btn1:hover{
+	background-color:#F3BEC6;
+}
+
+/* #e2 h2{
+	margin-top: 0;
+} */
+
+/* main #hal1 img{
 	float: left;
 	background-color:lavenderblush;
 	padding: 15px;
@@ -114,13 +195,14 @@ main #hal1 img{
 
 main #hal1 #i1{
 	width: 600px;
-	height: 528px;
+	height: 450px;
 }
 
 main #hal1 #i2{
 	width: 600px;
-	height: 450px;
-}
+	height: 300px;
+	margin-top: 9%;
+} */
 
 aside{
 	float: left;
@@ -166,8 +248,13 @@ main #hal4 img{
 	margin-right: auto;
 }
 
+#hal5, #hal6, #hal7, #hal8, #hal9, #hal10, #hal11, #hal12, #hal13{
+	padding: 15px;;
+}
+
 main{
 	padding-top: 125px;
+	background-color:lavenderblush;
 	/*display: flex;*/
 }
 
@@ -237,7 +324,7 @@ footer .d2{
 
 @media screen and (max-width:600px){
 	main{
-		flex-direction: column;
+		flex-direction: row;
 	}
 	
 	article, aside{

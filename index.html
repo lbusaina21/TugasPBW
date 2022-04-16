@@ -1,38 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
+	<title>Halaman Utama</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
 
+<body>
 	<header>
-		<img alt="STIS Mengajar" src="Logo STIS Mengajar.png"/>
+		<img alt="STIS Mengajar" src="LogoSTISMengajar.png"/>
 		<h1>STIS Mengajar</h1>
-		<button class="btn1"><a href="Sign In.html">Sign in/Sign up</a></button>
-		<button class="btn2"><i class="fa fa-search"></i> Search</button>
+		<a class="btn1" href="SignIn.html">Sign in/Sign up</a>
+		<a class="btn2" href="#"><i class="fa fa-search"></i> Search</a>
 	</header>
 	
 	<nav>
 		<a href="#hal3">About Us</a>
 		<a href="#hal4">Organogram</a>
-		<select id="matkul" name="matkul" required>
+		<select id="kementerian" name="kementerian" required>
 			<option value="">Kementerian</option>
 			<option value="K01">Analisis Isu Strategis</option>
-			<option value="K002">Riset dan Pengembangan</option>
-			<option value="K003">Perencanaan Kurikulum</option>
-			<option value="K004">Kreatif</option>
-			<option value="K005">PSDM</option>
-			<option value="K006">Ekonomi Kreatif</option>
-			<option value="K007">Luar Negeri</option>
-			<option value="K008">Media dan Informasi</option>
+			<option value="K02">Riset dan Pengembangan</option>
+			<option value="K03">Perencanaan Kurikulum</option>
+			<option value="K04">Kreatif</option>
+			<option value="K05">PSDM</option>
+			<option value="K06">Ekonomi Kreatif</option>
+			<option value="K07">Luar Negeri</option>
+			<option value="K08">Media dan Informasi</option>
 		</select>
 	</nav>
 	
 	<main>
 		<article id="hal1">
-			<img id="i1" alt="STIS Mengajar" src="undraw_development_re_g5hq.svg"/>
-			<img id="i2" alt="STIS Mengajar" src="undraw_add_information_j2wg.svg"/>
+			<div id="e1">
+				<h2>Webinar</h2><br>
+				<a class="btn1" href="Webinar.html">Daftar</a>
+			</div>
+			<div id="e2">
+				<h2>Volunteer</h2><br>
+				<a class="btn1" href="Volunteer.html">Daftar</a>
+			</div>
 		</article>
 		
 		<aside id="hal2">
@@ -61,28 +69,110 @@
 			<h2>Organogram</h2>
 			<img alt="STIS Mengajar" src="Organogram.svg"/>
 		</article>
+
+		<article id="hal5">
+			<h3>Badan Pengurus Harian</h3>
+			<a class="btn1" href="Anggota0a.html">BPH</a>
+			<a class="btn1" href="Anggota0b.html">Menteri Koordinator</a>
+		</article>
+		
+		<article id="hal6">
+			<h3>Kementerian Analisis Isu Strategis</h3>
+			<p> Kementerian Analisis Isu Strategis merupakan kementerian keilmuan independent yang berfokus 
+				kepada analisis strategis terhadap sebuah isu kependidikan, sikap, peningkatan internal 
+				komunitas maupun diskusi. 
+			</p><br>
+			<a class="btn1" href="Proker1.html">Proker</a>
+			<a class="btn1" href="Anggota1.html">Anggota</a>
+		</article>
+
+		<article id="hal7">
+			<h3>Kementerian Riset dan Pengembangan</h3>
+			<p> Kementerian Riset dan pengembangan adalah kementerian yang memberikan Langkah konkret dalam 
+				upaya mempengaruhi kebijakan komunitas ataupun dalam lingkup eksternal melalui pergerakan 
+				berasas intelektual dan objektif. 
+			</p><br>
+			<a class="btn1" href="Proker2.html">Proker</a>
+			<a class="btn1" href="Anggota2.html">Anggota</a>
+		</article>
+
+		<article id="hal8">
+			<h3>Kementerian Perencanaan Kurikulum</h3>
+			<p> Kementerian Perencanaan Kurikulum merupakan kementerian yang berfokus membangkitkan peran 
+				mahasiswa agar dapat terlibat dalam masyarakat menggunakan perencanaan dalam bentuk langkah-langkah 
+				strategis dengan merancang kurikulum pengajaran rutin dengan fokus daerah sekitar Otista Raya. 
+			</p><br>
+			<a class="btn1" href="Proker3.html">Proker</a>
+			<a  class="btn1" href="Anggota3.html">Anggota</a>
+		</article>
+
+		<article id="hal9">
+			<h3>Kementerian Kreatif</h3>
+			<p> Kementerian Kreatif merupakan kementerian yang berfokus merancang dan melaksanakan alternatif 
+				kegiatan pengajaran lain yang interaktif, terkini dan menarik agar memberikan output yang berkelanjutan. 
+			</p><br>
+			<a class="btn1" href="Proker4.html">Proker</a>
+			<a class="btn1" href="Anggota4.html">Anggota</a>
+		</article>
+
+		<article id="hal10">
+			<h3>Kementerian PSDM</h3>
+			<p> Kementerian PSDM adalah kementerian yang berada di bawah naungan Menteri Koordinator Event dan 
+				Pengajaran yang bertugas sebagai penopang kondisi internal organisasi dalam bidang sumberdaya manusia.
+			</p><br>
+			<a class="btn1" href="Proker5.html">Proker</a>
+			<a class="btn1" href="Anggota5.html">Anggota</a>
+		</article>
+
+		<article id="hal11">
+			<h3>Kementerian Ekonomi Kreatif</h3>
+			<p> Kementerian Ekonomi Kreatif adalah kementerian yang memiliki tugas dan fungsi sebagai ruang dalam mengembangkan 
+				potensi dalam berwirausaha dan menjadi sumber pendanaan beberapa program kerja dari STIS Mengajar. 
+			</p><br>
+			<a class="btn1" href="Proker6.html">Proker</a>
+			<a class="btn1" href="Anggota6.html">Anggota</a>
+		</article>
+
+		<article id="hal12">
+			<h3>Kementerian Luar Negeri</h3>
+			<p> Kementerian Luar Negeri adalah kementerian yang membangun dan mengembangkan citra positif STIS Mengajar baik di 
+				dalam maupun di luar Polstat STIS. Kementerian ini juga menjaga dan membangun hubungan dengan stakeholders Polstat 
+				STIS ataupun yang ada di eksternal kampus. 
+			</p><br>
+			<a class="btn1" href="Proker7.html">Proker</a>
+			<a class="btn1" href="Anggota7.html">Anggota</a>
+		</article>
+
+		<article id="hal13">
+			<h3>Kementerian Media dan Informasi</h3>
+			<p> Kementerian Media dan Informasi adalah kementerian yang berfokus pada pembuatan narasi dan pengolahan desain visual 
+				serta memberikan wadah dalam penyampaian informasi pelaporan hasil kinerja ke publik. 
+			</p><br>
+			<a class="btn1" href="Proker8.html">Proker</a>
+			<a class="btn1" href="Anggota8.html">Anggota</a>
+		</article>
 	</main>
 	
 	<footer>
 		<p class="p1">Copyright &copy; 2022 Politeknik Statistika STIS
-		<br>Created by Ladisa Busaina (<a href="mailto:222011349@stis.ac.id">222011349@stis.ac.id)</a></br></p>
+		<br>Created by Ladisa Busaina (<a href="mailto:222011349@stis.ac.id">222011349@stis.ac.id)</a></p>
 		<div class="d1">
 			<p>Social Media</p>
-			<p><img src="email.jpg"/>
-			stismengajarofficial&#64;gmail.com</br>
-			<br><img src="Instagram.png"/>
-			&#64;stismengajar</br>
-			<br><img src="YouTube.jpg"/>
-			STIS Mengajar</br>
-			<br><img src="Facebook.png"/>
-			STIS Mengajar</br>
-			<br><img src="Spotify.png"/>
-			Komunitas STIS Mengajar</br></p>
+			<p><img alt="Email" src="email.jpg"/>
+			stismengajarofficial&#64;gmail.com
+			<br><img alt="Instagram" src="Instagram.png"/>
+			&#64;stismengajar
+			<br><img alt="You Tube" src="YouTube.jpg"/>
+			STIS Mengajar
+			<br><img alt="Facebook" src="Facebook.png"/>
+			STIS Mengajar
+			<br><img alt="Spotify" src="Spotify.png"/>
+			Komunitas STIS Mengajar</p>
 		</div>
 		<div class="d2">
 			<p>Alamat</p>
 			<p>Jalan Otto Iskandardinata No.64C, 
-			<br>Jakarta Timur 13330 Telp. 085794571883</br></p>
+			<br>Jakarta Timur 13330 Telp. 085794571883</p>
 		</div>
 	</footer>
 	
